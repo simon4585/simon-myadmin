@@ -1,0 +1,10 @@
+---
+applications:
+- name: simon-myadmin
+  memory: 512M
+  host: simon-myadmin
+  domain: paas-ta.org
+  services:
+  - simon-mysql-db
+  instances: 1
+  disk_quota: 512M
